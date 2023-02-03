@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script
+      src="https://kit.fontawesome.com/6b55abd530.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contact</title>
+</head>
+<body data-nav="false">
+    <main>
+        <div class="main_container">
+            <div class="contact">
+            <div class="contact-section contact-wrapper">
+                <form class="contact-form">
+                    <div class="contact-heading">
+                      <div id="header">
+                        <h3>
+                          <span class="word_style">C</span>
+                          <span class="bounce animate__animated animate__rubberBand">o</span>
+                          <span class="bounce animate__animated animate__rubberBand">n</span>
+                          <span class="bounce animate__animated animate__rubberBand">t</span>
+                          <span class="bounce animate__animated animate__rubberBand">a</span>
+                          <span class="bounce animate__animated animate__rubberBand">c</span>
+                          <span class="bounce animate__animated animate__rubberBand">t</span>
+                          <span class="bounce">&nbsp;</span>
+                          <span class="bounce animate__animated animate__rubberBand">m</span>
+                          <span class="bounce animate__animated animate__rubberBand">e</span>
+
+                        </h3>
+                        <div class="icons">
+
+                          <a href="https://github.com/mikic97" target="_blank"><i class="fa-brands fa-github"></i></a>
+                          <a href="https://www.linkedin.com/in/nikola-mikic-544042247
+                          " target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                      </div>
+                      <p class="gray_text">
+                        If you just have a question or something else in mind, I'd love to hear from you. Please don't hesitate to reach out using the contact form provided on my website. I'll get back to you as soon as possible and we can discuss how I can assist you.
+                      </p>
+                    </div>
+            
+                    <div class="form-input-wrapper">
+                      <div class="form-input-group">
+                        <input type="text" placeholder="Name" name="name" class="name" />
+                        <span></span>
+                      </div>
+                      <div class="form-input-group">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          class="email"
+                        />
+                        <span></span>
+                      </div>
+                    </div>
+                    <div class="form-input-group">
+                      <input
+                        type="text"
+                        placeholder="Subject"
+                        class="subject"
+                        name="subject"
+                      />
+                      <span></span>
+                    </div>
+                    <div class="form-input-group">
+                      <textarea
+                        type="text"
+                        placeholder="Message"
+                        class="textarea"
+                        name="message"
+                      ></textarea>
+                      <span></span>
+                    </div>
+                    <div class="message"></div>
+                    <button type="submit" class="contact-button submit-button">
+                      <div>
+                        <span class="bg"></span>
+                        <span class="base"></span>
+                        <span class="text">
+                          Send Message
+                        </span>
+                      </div>
+                    </button>
+                  </form>
+                </div>
+
+
+            </div>
+
+            <div id="map"></div>
+        </div>
+     
+    </main>
+    <nav class="swiper">
+        <div id="nav-links" class="swiper-wrapper">
+          <a class="nav-link swiper-slide" href="index.html
+          ">
+            <h2 class="nav-link-label rubik-font">Home</h2>
+            <img
+              class="nav-link-image"
+              src="images/homePic.jpg" alt="home_picture"
+            />
+          </a>
+          <a class="nav-link swiper-slide" href="about.html">
+            <h2 class="nav-link-label rubik-font">About</h2>
+            <img
+              class="nav-link-image"
+              src="images/aboutPic.jpg" alt="about_me_picture
+              "
+            />
+          </a>
+          <a class="nav-link swiper-slide" href="projects.html">
+            <h2 class="nav-link-label rubik-font">Projects</h2>
+            <img
+              class="nav-link-image"
+              src="images/projectsPic.jpg"
+              alt="projects_picture"
+            />
+          </a>
+          <a class="nav-link swiper-slide" href="contact.html">
+            <h2 class="nav-link-label rubik-font">Contact</h2>
+            <img
+              class="nav-link-image"
+              src="images/contactPic.jpg" alt="contact_picture"
+            />
+          </a>
+  
+          <a class="nav-link swiper-slide" href="https://www.canva.com/design/DAFZg2n9SpE/YPyhzx_Ev8-XKzi6ARYmxA/view?utm_content=DAFZg2n9SpE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">
+            <h2 class="nav-link-label rubik-font">Resume</h2>
+            <img
+              class="nav-link-image"
+              src="images/resumePic.jpg" alt="resume_picture"
+            />
+          </a>
+        </div>
+        
+      </nav>
+      
+      <button id="nav-toggle" class="elementor-button" type="button" onclick="toggleNav()">
+        <i class="open fa-solid fa-bars all"></i>
+        <i class="close fa-solid fa-xmark all"></i>
+      </button>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("NkJzVcVs79TDOIU55");
+   })();
+</script>
+      <script src="contact.js"></script>
+    
+</body>
+</html>

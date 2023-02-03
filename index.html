@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6b55abd530.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nikola Portfolio</title>
+  </head>
+  <body data-nav="false">
+    <main>
+     
+      <div class="main_container">
+        <div class="my_info">
+          <h1 class="animate__animated animate__bounceIn animate__delay-0.9s">
+            <span class="bounce animate__animated animate__rubberBand">H</span>
+            <span class="bounce animate__animated animate__rubberBand">i</span>
+            <span class="bounce animate__animated animate__rubberBand">,</span>
+            <br />
+            <span class="bounce animate__animated animate__rubberBand">I</span>
+            <span class="bounce animate__animated animate__rubberBand">'</span>
+            <span class="bounce animate__animated animate__rubberBand">m</span>
+            <span class="bounce animate__animated animate__rubberBand">&nbsp;</span>
+            <span class="word_style">N</span>
+            <span class="bounce animate__animated animate__rubberBand">i</span>
+            <span class="bounce animate__animated animate__rubberBand">k</span>
+            <span class="bounce animate__animated animate__rubberBand">o</span>
+            <span class="bounce animate__animated animate__rubberBand">l</span>
+            <span class="bounce animate__animated animate__rubberBand">a</span>
+            <span class="bounce animate__animated animate__rubberBand">,</span>
+            <br />
+            <span class="bounce animate__animated animate__rubberBand">w</span>
+            <span class="bounce animate__animated animate__rubberBand">e</span>
+            <span class="bounce animate__animated animate__rubberBand">b</span>
+            <span class="bounce">&nbsp;</span>
+            <span class="bounce animate__animated animate__rubberBand">d</span>
+            <span class="bounce animate__animated animate__rubberBand">e</span>
+            <span class="bounce animate__animated animate__rubberBand">v</span>
+            <span class="bounce animate__animated animate__rubberBand">e</span>
+            <span class="bounce animate__animated animate__rubberBand">l</span>
+            <span class="bounce animate__animated animate__rubberBand">o</span>
+            <span class="bounce animate__animated animate__rubberBand">p</span>
+            <span class="bounce animate__animated animate__rubberBand">e</span>
+            <span class="bounce animate__animated animate__rubberBand">r</span>
+          </h1>
+          <p class="gray_text animate__animated animate__fadeInUp animate__delay-0.9s">Front End Developer / WebFlow</p>
+          <br />
+          
+          <a href="contact.html" class="contact-button">
+            
+            <div class="animate__animated animate__fadeInUp animate__delay-0.95s">
+              
+              <span class="bg"></span>
+              <span class="base"></span>
+              <span class="text"> Contact me! </span>
+              
+            </div>
+          </a>
+        
+          <div class="arrow">
+            <img src="images/arrowgif.gif" alt="arrow_down">
+          </div>
+          
+        </div>
+     
+        <div class="my_picture">
+          <div class="wrapper_picture">
+          <img
+            src="images/mojaslika1235.jpg" id="tilt" alt="my_picture"
+          class="me"/>
+        </div>
+        </div>
+      </div>
+    </main>
+    <nav class="swiper">
+      <div id="nav-links" class="swiper-wrapper">
+        <a class="nav-link swiper-slide" href="index.html">
+          <h2 class="nav-link-label rubik-font">Home</h2>
+          <img
+            class="nav-link-image"
+            src="images/homePic.jpg" alt="home_picture"
+          />
+        </a>
+        <a class="nav-link swiper-slide" href="about.html">
+          <h2 class="nav-link-label rubik-font">About</h2>
+          <img
+            class="nav-link-image"
+            src="images/aboutPic.jpg" alt="about_me_picture
+            "
+          />
+        </a>
+        <a class="nav-link swiper-slide" href="projects.html">
+          <h2 class="nav-link-label rubik-font">Projects</h2>
+          <img
+            class="nav-link-image"
+            src="images/projectsPic.jpg"
+            alt="projects_picture"
+          />
+        </a>
+        <a class="nav-link swiper-slide" href="contact.html">
+          <h2 class="nav-link-label rubik-font">Contact</h2>
+          <img
+            class="nav-link-image"
+            src="images/contactPic.jpg" alt="contact_picture"
+          />
+        </a>
+
+        <a class="nav-link swiper-slide" href="https://www.canva.com/design/DAFZg2n9SpE/YPyhzx_Ev8-XKzi6ARYmxA/view?utm_content=DAFZg2n9SpE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank">
+          <h2 class="nav-link-label rubik-font">Resume</h2>
+          <img
+            class="nav-link-image"
+            src="images/resumePic.jpg" alt="resume_picture"
+          />
+        </a>
+      </div>
+      
+    </nav>
+    
+    <button id="nav-toggle" class="elementor-button" type="button" onclick="toggleNav()">
+      <i class="open fa-solid fa-bars all"></i>
+      <i class="close fa-solid fa-xmark all"></i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
